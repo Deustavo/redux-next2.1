@@ -4,7 +4,7 @@ Esse repositório tambem doi um desafio proposto pelo [Douglas Morais](https://g
 Para isso, com ajuda de meu colega [Pedro Cardozo](https://github.com/pedrocardoz0), converti o projeto para Next js e coloquei o arquivo server dentro da pasta [api](https://github.com/Deustavo/redux-next2.1/tree/main/pages/api).
 
 👇 Se liga como ficou a minha versão 👇
-https://redux2-1-next.vercel.app/
+<p>https://redux2-1-next.vercel.app/</p>
 
 <br />
 <br />
