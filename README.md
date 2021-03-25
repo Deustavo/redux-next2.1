@@ -1,3 +1,15 @@
+# Olá amigo 🦘
+
+Esse repositório tambem doi um desafio proposto pelo [Douglas Morais](https://github.com/mrdouglasmorais), porém eu o adaptei para que pudesse rodar seu server junto a hospedagem do vercel.
+Para isso, com ajuda de meu colega [Pedro Cardozo](https://github.com/pedrocardoz0), converti o projeto para Next js e coloquei o arquivo server dentro da pasta [api](https://github.com/Deustavo/redux-next2.1/tree/main/pages/api).
+
+👇 Se liga como ficou a minha versão 👇
+https://redux2-1-next.vercel.app/
+
+<br />
+<br />
+<br />
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

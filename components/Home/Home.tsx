@@ -1,8 +1,9 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { IUser } from '../store/modules/user/types';
-import { addNewUser } from '../store/modules/user/actions';
-import api from '../service/api' ;
+import { IUser } from '../../store/modules/user/types';
+import { addNewUser } from '../../store/modules/user/actions';
+import api from '../../service/api';
+import styles from './Home.module.css';
 
 const Home: React.FC = () => {
     const dispatch = useDispatch()
@@ -25,12 +26,12 @@ const Home: React.FC = () => {
             <h1>Todos os alunos:</h1>
             <div>
                 { users.map( (user, index) => (
-                    <div key={index} style={{ backgroundColor: '#f1f1f1', padding: '16px', marginBottom: 16, borderRadius: 8, border: 'solid rgba(0, 0, 0, 0.3) 0.05px'}}>
+                    <div key={index} className={styles.alunoContent}>
                         <article>
-                            <p style={{ fontSize: 24, fontWeight: 'bold', marginBottom: 8 }}> { user.name } </p>
+                            <p> { user.name } </p>
                             <p> { user.email } </p>
                             <p> { user.age } </p>
-                            <button onClick={ () => handleUsers(user)} style={{ outline: 'none', border: 0, backgroundColor: '#71bf57', padding: 8, borderRadius: 6}}> Adicionar </button>
+                            <button onClick={ () => handleUsers(user)} className={styles.button}> Fazer Matricula </button>
                         </article>
                     </div>
                 ))}
